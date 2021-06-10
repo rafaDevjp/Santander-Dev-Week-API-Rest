@@ -6,14 +6,13 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: postgres://ezcwmlgvdvvtpm:f53bb3e5b14ad997521300ecba4643b4ff83297e5b41f0c4745a7c9a43293fe0@ec2-34-202-54-225.compute-1.amazonaws.com:5432/d7qhe1p2vkgics
-Heroku CLI	
+    url: postgres://ezcwmlgvdvvtpm:f53bb3e5b14ad997521300ecba4643b4ff83297e5b41f0c4745a7c9a43293fe0@ec2-34-202-54-225.compute-1.amazonaws.com:5432/d7qhe1p2vkgics	
     username: ezcwmlgvdvvtpm
     password: f53bb3e5b14ad997521300ecba4643b4ff83297e5b41f0c4745a7c9a43293fe0
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: false
+    generate-ddl: true 
     hibernate:
       ddl-auto: none
 
