@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api-santander
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/Api-santander
+    username: postgres
+    password: 123456
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+
+application:
+  description: Projeto Criado para Semana SANTANDER DEV WEEK - Digital Innovation One
